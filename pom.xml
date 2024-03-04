@@ -13,6 +13,13 @@
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_manage_participant of uuaa rbvd</description>
 	<properties>
+		<sonar.coverage.exclusions>
+			/src/main/java/com/bbva/rbvd/dto/participant/constants/**.java,
+			/src/main/java/com/bbva/rbvd/dto/participant/dao/**.java,
+			/src/main/java/com/bbva/rbvd/dto/participant/group/**.java,
+			/src/main/java/com/bbva/rbvd/dto/participant/request/**.java,
+			/src/main/java/com/bbva/rbvd/dto/participant/utils/**.java
+		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
 	<dependencies>
