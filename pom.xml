@@ -18,7 +18,8 @@
 			/src/main/java/com/bbva/rbvd/dto/participant/dao/**.java,
 			/src/main/java/com/bbva/rbvd/dto/participant/group/**.java,
 			/src/main/java/com/bbva/rbvd/dto/participant/request/**.java,
-			/src/main/java/com/bbva/rbvd/dto/participant/utils/**.java
+			/src/main/java/com/bbva/rbvd/dto/participant/utils/**.java,
+			/src/main/java/com/bbva/rbvd/dto/participant/mapper/**.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
