@@ -34,4 +34,16 @@ public class RBVDInternalConstants {
         CUSTOMER,
         NON_CUSTOMER;
     }
+
+    public enum TypeInsuranceProduct {
+        VEHICLE,
+        HOME,
+        PYME,
+        CARD,
+        UNEMPLOYEEMENT,
+        EASY_YES,
+        DINAMIC_LIFE,
+        INVESTMENT_LIFE;
+
+    }
 }
